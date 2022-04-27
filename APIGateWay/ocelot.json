@@ -33,11 +33,12 @@
           "Port": 7144
         }
       ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "gateway_auth",
+        "AllowedScopes": []
+      },
       "UpstreamPathTemplate": "/gateway/message",
       "UpstreamHttpMethod": [ "Get", "Post" ]
     }
-
-
   ]
-  
 }
